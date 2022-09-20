@@ -3,7 +3,6 @@ use super::spoint::{Point,};
 
 
 
-#[derive(Debug)]
 pub struct Box{
     p1: Point,
     p2: Point,
@@ -11,7 +10,7 @@ pub struct Box{
 
 impl Box {
     pub fn to_string(&self){
-        println!("({:?}, {:?})", self.p1, self.p2);
+        println!("({}, {})", self.p1, self.p2);
     }
 }
 
